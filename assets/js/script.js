@@ -85,6 +85,15 @@ $(document).ready(function(){
     ===================================== */
     // styled hover + active in css
 
+    // fix gallery - no jumps
+
+
+        if($(window).width()>767){
+            var galleryHeight = $('#filter-gallery').height();
+
+            $('#filter-gallery').css({"min-height":galleryHeight+"px"});
+        }
+
     $('#all-btn').click(function(){
         // $('#all-btn, #jemma-btn, #kaela-btn, #sarah-btn').removeClass('active');
         // $(this).addClass("active");
