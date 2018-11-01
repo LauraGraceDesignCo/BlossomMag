@@ -79,7 +79,7 @@ $(document).ready(function(){
     });
 
 
-
+// just a random comment
     /* ======================================
     Filter Gallery - navigation
     ===================================== */
